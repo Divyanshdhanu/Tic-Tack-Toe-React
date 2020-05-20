@@ -2,7 +2,7 @@ import React from "react";
 import { FaPen, FaTimes, FaRegCircle } from "react-icons/fa";
 
 function Icon(props) {
-  console.log(props.name);
+  // console.log(props.name);
   switch (props.name) {
     case "circle":
       return <FaRegCircle className="icons" />;
